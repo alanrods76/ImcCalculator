@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_component"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="32dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/resultMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textColor="@color/title_text"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardImc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:cardBackgroundColor="@color/background_component_selected"
+        app:cardCornerRadius="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultMsg">
+
+        <TextView
+            android:id="@+id/textImc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="64dp"
+            android:text="@string/imc"
+            android:textColor="@color/white"
+            android:textSize="64dp"
+            android:textStyle="bold"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textDefinition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardImc"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Eres una persona con bajo peso"
+        tools:textColor="@color/white"
+        android:textSize="24dp"
+        android:layout_marginTop="32dp"
+        />
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textDefinition"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Eres una persona con bajo peso"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnRecalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/textDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/recalculate"
+        android:textSize="18dp"
+        android:paddingVertical="16dp"
+        android:layout_marginTop="128dp"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

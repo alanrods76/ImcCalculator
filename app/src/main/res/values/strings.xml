@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Imc Calculator</string>
+    <string name="men">Hombre</string>
+    <string name="women">Mujer</string>
+    <string name="heightTitle">altura</string>
+    <string name="height">1.00 M</string>
+    <string name="weight">peso</string>
+    <string name="fixedWeight">30 kg</string>
+    <string name="age">edad</string>
+    <string name="fixedAge">10 años</string>
+    <string name="calculater">calcular</string>
+    <string name="result">El calculo de tu IMC es:</string>
+    <string name="imc">25</string>
+    <string name="error">Error</string>
+    <string name="title_underweight">Tienes bajo paso.</string>
+    <string name="description_underweight">Estás por debajo de tu peso ideal, debes aumentar de peso.</string>
+    <string name="title_normal_weight">Tu peso es normal.</string>
+    <string name="description_normal_weight">Estás en tu peso ideal, sigue asi, lo haces bien.</string>
+    <string name="title_overweight">Padeces de sobrepeso.</string>
+    <string name="description_overweight">Tienes sobrepeso, debes bajar hasta tu peso ideal.</string>
+    <string name="title_obesity">Eres una persona con obesidad.</string>
+    <string name="description_obesity">Debes esforzarte y bajar de peso, animo!!!</string>
+    <string name="recalculate">Recalcular</string>
+</resources>
